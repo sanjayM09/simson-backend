@@ -19,19 +19,19 @@ public class AdminLoginService {
 	    	
 	   	 AdminLogin login = new AdminLogin();
 	        login.setId(1);
-	        login.setEmail("kkbazar.ideaux@gmail.com");
-	        login.setPassword("ideaux@2411");
-	        login.setName("kkbazar");
+	        login.setEmail("s@gmail.com");
+	        login.setPassword("12345");
+	        login.setName("sanjay");
 	        login.setRoleId(1);
 	        login.setRoleType("Admin");
 
 		        login.setId(2);
-		        login.setEmail("smkv@gmail.com");
-		        login.setPassword("smkv@2024");
-		        login.setName("smkv");
+		        login.setEmail("workzio@gmail.com");
+		        login.setPassword("12345");
+		        login.setName("Workzio");
 		        login.setRoleId(2);
 		        login.setRoleType("superAdmin");
-		        adminLoginRepository.save(login);
+//		        adminLoginRepository.save(login);
 	        adminLoginRepository.save(login);
 	   }
 	
